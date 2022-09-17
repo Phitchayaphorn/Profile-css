@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Pakpiraporn Profile Site</title>
+    <link href='https://fonts.googleapis.com/css?family=Aclonica'rel='stylesheet'>
+    <!--line 7,18: Exeternal Resource Link  
+        font-family Ref:https://www.w3schools.com/whatis/tryit.asp?font=Aclonica -->
+</head>
+
+<body>
+    <!-- Header -->
+    <!-- Ref:https://developer.mozilla.org/en-US/docs/Web/CSS/font-family-->
+    <h1 style="text-align: center; font-family: cursive;">Profile</h1>
+    <h2 style="text-align: center; font-family: cursive; font-weight:normal">
+        I'm Pakpiraporn Rakthinthai</h2>  
+    <h4 style="text-align: center; font-family: Aclonica ; font-weight:normal"><i>
+        "Believe you can and you are halfway there."</i></h4>    
+    <hr>
+    <!-- Menu -->
+    <table style="width:100%; text-align: center">
+       
+        <body>
+            <center>
+                <a href="index.html" target="Profile">
+                    <button class="btn-1">Profile</button></a>
+                <a href="experiences.html" target="Experiences">
+                    <button class="btn-1">Experiences</button></a>
+                <a href="abilities.html" target="Abilities">
+                    <button class="btn-1">Abilities</button></a>
+                <a href="projects.html" target="Projects">
+                    <button class="btn-1">Projects</button></a>
+                <a href="contact.html" target="Contact">
+                   <button class="btn-1">Contact</button></a>   
+            </center> 
+        </body>
+    </table>  
+    <hr>
+    <table>
+        <tr>
+            <th style="width: 33.33%; vertical-align: top;"><h2 >About me</h2>
+                <p style="font-weight:normal; text-align: justify;">&nbsp;&nbsp;&nbsp;
+                   กำลังศึกษาอยู่ที่มหาวิทยาลัยกรุงเทพ คณะวิศวกรรมศาสตร์ สาขาวิศวกรรมมัลติมีเดียและเอนเตอร์เทนเม้นท์ มีประสบการณ์ทำงานเกี่ยวกับการบันเทิงกว่า 10 ปี เริ่มจากเป็นนักแสดงสู่การทำงานเบื้องหลังกับผู้มีประสบการณ์ที่เป็นมืออาชีพ
+                </p>
+                <p>Email: <a href="pakpiraporn.rakt@bumail.net" style="text-decoration: none; color:#155c15;">pakpiraporn.rakt@bumail.net</a></p>
+            </th>
+            <th style="width: 33.33%; vertical-align: top;">
+                <!--Crop Circle Image: https://crop-circle.imageonline.co/-->
+                <p><img src="image/profile download.png" alt="Pakpiraporn Rakthinthai" style="width: 60%;"></p>
+                </th>
+                <th style="width: 33.33%; vertical-align: top; text-align: left;"><h2>Details</h2>
+                <p>Name:</p>
+                    <p style="font-weight:normal;">Pakpiraporn Rakthinthai</p>
+                <p>Location:</p>
+                    <p style="font-weight:normal;">Thailand</p>
+                    <p>Social Media:</p>
+                    <!--Reference Social Media Icons-->
+                    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">    
+                    <!--Icons Class Reference: https://www.w3schools.com/icons/icons_reference.asp-->
+                    <p><a href="https://www.facebook.com/kongkanpai" class="fa fa-facebook-square" target="_blank" style="font-size: 40px; color: rgb(7, 114, 255);text-decoration: none;"></a>
+                        <a href="https://www.instagram.com/pakpi_rimmey/" class="fa fa-instagram" target="_blank" style="font-size: 40px; color: brown; text-decoration: none;"></a>
+                    </p>
+            </th>
+        </tr>
+    </table>
+    <hr>
+    <p style="text-align: center; text-decoration: none;">© 2022 Pakpiraporn Rakthinthai</p>
+    <style>
+        body {
+            background-image: url('https://i.pinimg.com/564x/be/2a/94/be2a940c4ac312bf5abc0aa9677749de.jpg');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+        
+        </style>
+<style>
+              button{
+                padding: 10px 20px;
+                font-size: 1rem;
+                cursor: pointer;
+                border: 0px;
+                background: transparent;
+                position: relative;
+                margin: 20px;
+                transition: all 0.25s ease;
+            }
+            .btn-1:hover{
+                color: #8FBC8F;
+            }
+            .btn-1:hover::after{
+                transform: scale(1);
+                opacity: 1;
+            }
+      .btn-1::after{
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background :#fff;
+        bottom: -10px;
+        top: 0;
+        left: 0;
+        transform: scale(.1);
+        border-radius: 30px;
+        z-index: -1;
+        opacity: 0;
+      }
+</style>
+</body> 
+</html>

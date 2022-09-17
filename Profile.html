@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pakpiraporn index</title>
+    <link rel="css" href="style.css">
+</head>
+     <body>
+        <div class="container">
+            <div class="navbar">
+                <img src="image/186-1862652_valentines-day-heart-hearts-png-image-picpng-valentine.png" class="logo">
+                <nav>
+                    <ul>
+                        <li> <a href="experiences.html">Experiences</a></li>
+                        <li><a href="abilities.html">Abilities</a></li>
+                        <li><a href="projects.html">Projects</a></li>
+                        <li><a href="contact.html">Contact</a></li> 
+                    </ul>
+                </nav>
+                <img src="image/menu.png" class="menu-icon">
+            </div>
+            <div class="row">
+                <div class="col-1">
+                  <h2>About me</h2>
+                  <br>
+                  <h3>กำลังศึกษาอยู่ที่มหาวิทยาลัยกรุงเทพ คณะวิศวกรรมศาสตร์ สาขาวิศวกรรมมัลติมีเดียและเอนเตอร์เทนเม้นท์</h3>
+                  <p>มีประสบการณ์ทำงานเกี่ยวกับการบันเทิงกว่า 10 ปี เริ่มจากเป็นนักแสดงสู่การทำงานเบื้องหลังกับผู้มีประสบการณ์ที่เป็นมืออาชีพ</p>
+                  <br>
+                  <h4>Email: <a href="pakpiraporn.rakt@bumail.net" style="text-decoration: none; color:#155c15;">pakpiraporn.rakt@bumail.net</a></h4>
+                  <br>  
+                  <p>Social Media:</p>
+                  <div class="social-links">
+                    <!--Reference Social Media Icons-->
+                    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">    
+                    <!--Icons Class Reference: https://www.w3schools.com/icons/icons_reference.asp-->
+                    <p><a href="https://www.facebook.com/kongkanpai" class="fa fa-facebook-square" target="_blank" style="font-size: 40px; color: rgb(7, 114, 255);text-decoration: none;"></a>
+                        <a href="https://www.instagram.com/pakpi_rimmey/" class="fa fa-instagram" target="_blank" style="font-size: 40px; color: brown; text-decoration: none;"></a>
+                    </p>   
+               </div>           
+                </div> 
+                <div class="col-2">
+                    <img src="image/profile download.png" class="Rimmey">
+                    <div class="color-box"></div>
+                </div> 
+                        
+            </div>
+            <p style="text-align: center; text-decoration: none;">© 2022 Pakpiraporn Rakthinthai</p>
+        </div>
+    </body>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif;
+        }
+        .container{
+            width: 100%;
+            min-height: 100vh;
+            padding-left: 8%;
+            padding-right: 8%;
+            box-sizing: border-box;
+            overflow: hidden;
+        }
+        .navbar{
+            width: 100%;
+            display: flex;
+            align-items: center;
+        }
+        .logo{
+            width: 50px;
+            cursor: pointer;
+            margin: 30px 0;
+        }
+        .menu-icon{
+            width: 25px;
+            cursor: pointer;
+        }
+        nav{
+            flex: 1;
+            text-align: right;
+        }
+        nav ul li{
+            list-style: none;
+            display: inline-block;
+            margin-right: 30px;
+        }
+        nav ul li a{
+            text-decoration: none;
+            color: #000;
+            font-size: 14px;
+        }
+        nav ul li a:hover{
+            color: #ff469f;
+        }
+        .row{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: 100px 0;
+        }
+        .col-1{
+            flex-basis: 40%;
+            position: relative;
+            margin-left: 50px;
+        }
+        .col-1 h2{
+            font-size: 54px;
+        }
+        .col-1 h3{
+            font-size: 30px;
+            color: #707070;
+            font-weight: 100;
+            margin: 20px 0 10px;
+        }
+        .col-1 p{
+            font-size: 16px;
+            color: #b7b7b7;
+            font-weight: 100;
+        }
+        .col-1 h4{
+            margin: 30px 0;
+            font-size: 20px;
+        }
+        .col-1::after{
+            content: "";
+            width: 10px;
+            height: 57%;
+            background: linear-gradient(#ff469f,#ff6062);
+            position: absolute;
+            left: -40px;
+            top: 8px;
+        }
+        .col-2{
+            position: relative;
+            flex-basis: 60%;
+            display: flex;
+            align-items: center;
+        }
+        .col-2 .Rimmey{
+            width: 70%;
+        }
+        .color-box{
+            position: absolute;
+            right: 0;
+            top: 0;
+            background: linear-gradient(#ff469f,#ff575a);
+            border-radius: 20px 0 0 20px;
+            height: 100%;
+            width: 80%;
+            z-index: -1;
+            transform: translate(150px);
+        }
+    </style>
+</html>
